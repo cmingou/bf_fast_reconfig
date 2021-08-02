@@ -151,6 +151,10 @@ header gre_h {
     bit<16> proto;
 }
 
+header result_h {
+    bit<16> result;
+}
+
 struct header_t {
     ethernet_h ethernet;
     vlan_tag_h vlan_tag;
@@ -158,6 +162,7 @@ struct header_t {
     ipv6_h ipv6;
     tcp_h tcp;
     udp_h udp;
+    result_h report;
 
     // Add more headers here.
 }

@@ -33,7 +33,6 @@ parser TofinoIngressParser(
     }
 
     state parse_resubmit {
-        // Parse resubmitted packet here.
         transition reject;
     }
 

@@ -1,0 +1,13 @@
+HostAddr: ':50052'
+BasePath: '/root/bf-sde-9.5.0/install/share/tofino2pd'
+P4Name: 'pipeline_b'
+ProfileName: 'pipe_b'
+BinaryPath: '/root/go/src/bf_fast_reconfig/target/model/tofino2/pipeline_b/pipe/tofino2.bin'
+ContextPath: '/root/go/src/bf_fast_reconfig/target/model/tofino2/pipeline_b/pipe/context.json'
+BfRtPath: '/root/go/src/bf_fast_reconfig/target/model/tofino2/pipeline_b/bf-rt.json'
+ReceiveInterface: 'veth3'
+sendInterface: 'veth1'
+Emulator: false
+AllInOne: false
+PacketSender: false
+PacketReceiver: true
